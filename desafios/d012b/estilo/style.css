@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:
+    --font3:
+}
+
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: aqua;
+    font-family: var(--font1)
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 3vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none ;
+    font: bolder ;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(97, 76, 76, 0.6);
+    color: white;
+    box-shadow: inset 6px 6px 13px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block ;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.353);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/img01.jpg');
+}
+
+section#img02 {
+    background-image: url('../imagens/img02.jpg');
+ 
+}
+
+section#img03 {
+    background-image: url('../imagens/img03.jpg');
+  
+}
+
+section#img04 {
+    background-image: url('../imagens/img04.jpg');
+}
+
+section#img05 {
+    background-image: url('../imagens/img05.jpg');
+}
+
+section#img06 {
+    background-image: url('../imagens/img06.jpg');
+}
+
+section#img07 {
+    background-image: url('../imagens/img07.jpg');
+  
+}
